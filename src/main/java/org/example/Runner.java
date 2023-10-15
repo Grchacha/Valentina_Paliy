@@ -10,6 +10,9 @@ package org.example;
                 String filePath = args[1];
                 int key = Integer.parseInt(args[2]);
                 CLI1.processCommand(command, filePath, 3);
+                System.out.println(command);
+                System.out.println(filePath);
+                System.out.println(key);
             }
         }
     }
